@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<label for="fname">Name</label><br>
+		<input type="text" id="fname" name="fname"><br>
+		<label for="femail">Email</label><br>
+		<input type="text" id="femail" name="femail"><br>
+
+		<p>Sex</p>
+		<p><input type="radio" name="Sex" value="Male">Male
+		<input type="radio" name="Sex" value="Female">Female</p>
+
+		<p>Current status</p>
+		<p><input type="checkbox" name="Status" value="Student"> Student</p>
+		<p><input type="checkbox" name="Status" value="Employed"> Employed</p>
+		<p><input type="checkbox" name="Status" value="Unemployed"> Unemployed</p>
+
+		<p>Month and Year of birth</p>
+		<p>
+			<select name="date_m">
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="Marth">Marth</option>
+			</select>
+			<select name="date_y">
+				<option value="1984">1984</option>
+				<option value="1985">1985</option>
+				<option value="1986">1986</option>
+			</select>
+		</p>
+
+		<p>Skills and Technologies</p> 
+		<p>
+			<select name="Skills" size="10" multiple>
+				<optgroup label="Teck skills">
+					<option value="HTML">HTML</option>
+					<option value="CSS">CSS</option>
+					<option value="JavaScript">JavaScript</option>
+					<option value="GIT">GIT</option>
+				</optgroup>
+				<optgroup label="Sofr skills">
+					<option value="Time management">Time management</option>
+					<option value="Proactivity">Proactivity</option>
+					<option value="Teamwork">Teamwork</option>
+					<option value="Leadership">Leadership</option>
+				</optgroup>
+			</select>
+		</p>
+
+		<p>Photo</p>
+		<p><input type="file" name="photo" multiple accept="image/*">
+		</p>
+		
+		<p>Comments</p>
+		<p>
+			<textarea rows="6" cols="30" name="Comments"></textarea>
+		</p>
+
+		<p>
+			<button type="submit">Save</button>
+		</p>
+	</form>
+</body>
+</html>

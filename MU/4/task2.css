@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.back{
+	width: 100%;
+	background-color: #8417c1;
+	overflow: hidden; 
+}
+
+.menu{
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+li{
+	float: left;
+	list-style-type: none;
+}
+
+.more{
+	float: right;
+}
+
+span{
+	font-family: economica ;
+	font-weight: bold;
+	display: block;
+	color: #ffffff;
+	padding: 10px;
+}
+span:hover{
+	background-color: white;
+	color:#bf00ff;
+}
+
