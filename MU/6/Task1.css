@@ -3,16 +3,24 @@
 	padding: 0;
 }
 
+.main_div{
+	margin: 50px 0 0 50px;
+}
+
+.move_central{
+	position: relative;
+	top:-10px;
+}
+
 .main_container{
-	margin: 100px;
+	float: left;	
 	width: 300px;
-	/*background-color: #1AA4FF;*/
 	border-radius: 1px;
 }
 
-.header{
+.header_left{
 	text-align: center;
-	background-color: #EE8129;
+	background-color: #37C2D3;
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -21,10 +29,53 @@
 	border-top-right-radius: 15px;
 }
 
+.header{
+	text-align: center;
+	background-color: #EE8129;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 0 25px 0;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+/* 	box-sizing: content-box; */
+	box-shadow: 2px 2px 2px 2px grey;
+}
+
+.header_right{
+	text-align: center;
+	background-color: #1CB79A;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 0;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.content_left{
+	background-color: #FFFFFF;
+	border-color: #E8EAEC;
+	border-style: solid;
+	border-width: thin;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px
+}
+
 .content{
 	background-color: #FFFFFF;
 	border-color: #EE8129;
 	border-style: solid;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+
+.content_right{
+	background-color: #FFFFFF;
+	border-color: #E8EAEC;
+	border-style: solid;
+	border-width: thin;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px
 }
@@ -87,9 +138,9 @@ li:nth-child(even){
 	background-color: #F5F5F6;
 }
 
-.button{
+.button_center{
 	background-color: #EE8129;
-	margin: 20px 10px 30px 10px;
+	margin: 20px 10px 35px 10px;
 	padding: 10px 0 10px 0; 
 	text-align: center;
 	color: white;
@@ -97,5 +148,17 @@ li:nth-child(even){
 	font-weight: bold;
 	border-radius: 7px;
 	border-bottom: 3px solid #B3560B;
+}
+
+.button{
+	background-color: #3371A6;
+	margin: 20px 10px 30px 10px;
+	padding: 10px 0 10px 0; 
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 7px;
+	border-bottom: 3px solid #16436A;
 }
 
