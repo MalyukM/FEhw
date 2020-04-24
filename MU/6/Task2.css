@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(testimonialsbackground.jpg);
+/*	background-repeat: no-repeat;*/
+	background-size: 100%;
+}
+
+
+h1{
+	text-align: center;
+}
+
+.feedback{
+	width: 480px;
+	display: inline-block;
+	/*float: left;*/
+	vertical-align: top;
+}
+
+.photo{
+	float: left;
+	width: 20%;
+	margin-top: 20px;
+
+}
+
+.feed_text{
+	float: left;
+	width: 70%;
+	margin-left: 40px;
+}
