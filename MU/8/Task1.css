@@ -17,14 +17,14 @@
 .main_block:after{
 	content:'';
 	position: absolute;
-	right: -29px;
+	right: -20px;
 	top:0;
 	bottom:0;
 	width: 0; 
 	height: 0; 
 	border-top: 30px solid transparent;
 	border-bottom: 30px solid transparent;  
-	border-left: 30px solid #ffcd5d;
+	border-left: 20px solid #ffcd5d;
 }
 
 
