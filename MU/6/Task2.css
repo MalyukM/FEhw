@@ -2,12 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
-body{
+.feed_back{
 	background: url(testimonialsbackground.jpg);
 	background-size: 100%;
 }
 
-.main_div{
+.main_feed_div{
 	margin: 40px 400px;
 	/* text-align: center; */
 }
@@ -22,14 +22,14 @@ body{
 }
 
 
-h1{
+.main_feed_div>h1{
 	text-align: center;
 	color: #3170A8;
 	text-transform: uppercase;
 	/*margin-bottom: 20px;*/
 }
 
-h1>span{
+.main_feed_div>h1>span{
 	color: #EE8129;
 }
 
@@ -70,3 +70,4 @@ h1>span{
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 }
+
