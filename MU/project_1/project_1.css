@@ -370,3 +370,168 @@ menuitem:hover{
 	border-bottom: 3px solid #16436A;
 }
 /*END OFFERS CSS*/
+
+/*START FEEDBACK BLOCK*/
+.feed_back{
+	background: url(img/testimonialsbackground.jpg);
+	background-size: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+}
+
+.main_feed_div{
+	margin: 40px 400px;
+	/* text-align: center; */
+}
+
+.main_feedback{
+	width: 1000px;
+	margin: auto;
+	top: 0;
+	right:0;
+	bottom:0;
+	left:0;
+	text-align: center;
+}
+
+
+.main_feed_div>h1{
+	text-align: center;
+	color: #3170A8;
+	text-transform: uppercase;
+	/*margin-bottom: 20px;*/
+}
+
+.main_feed_div>h1>span{
+	color: #EE8129;
+}
+
+.feedback{
+	width: 480px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top:40px;
+}
+
+.photo{
+	float: left;
+	width: 20%;
+	/*margin-top: 20px;*/
+
+}
+
+.feed_text{
+	float: left;
+	width: 60%;
+	margin-left: 28px;
+	padding: 20px 20px;
+	background-color: #F7F7F7;
+}
+
+.feed_username{
+	float: left;
+}
+
+.feed_userposid{
+	float: right;
+}
+
+.feed_header{
+	overflow: hidden;
+	color: #3070A8;
+	border-bottom: 1px dotted black;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+/*END FEEDBACK BLOCK*/
+
+/*START CONTACT*/
+.contact{
+	position: relative;
+	top: 0;
+	right:0;
+	bottom:0;
+	left:0;
+	/*text-align: center;*/
+	height: 340px;
+}
+
+.contact_social{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 500px;
+	/*border: 1px solid red;*/
+	padding: 0 50% 0 0;
+}
+
+.contact_p{
+	padding-top: 50px;
+	line-height:150%;
+	color: #666;
+	position: absolute;
+	left: 50px;
+}
+
+.contact_p>p{
+	padding-top: 20px;
+}
+
+.contact_p_first::before{
+	content: url(img/location.png);
+	/*text-align: right;*/
+	/*margin-right: 20px;*/
+	position: absolute;
+	left: -50px;
+}
+
+.contact_p>p:nth-child(2)::before{
+	content: url(img/phone.png);
+	position: absolute;
+	left: -50px;
+}
+
+.contact_p>p:nth-child(3)::before{
+	content: url(img/mail.png);
+	position: absolute;
+	left: -50px;
+	padding-top: 8px;
+
+}
+
+.map{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	/*border: 1px solid black;*/
+	background: url(img/map.jpg);
+	background-size: 100%;
+}
+/*START CONTACT*/
+.social_net{
+	position: absolute;
+	bottom: 20px;
+}
+
+.social_net>img:nth-child(2){
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer{
+	text-align: center;
+	background-color: #3070a8;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	color: #fff;
+	line-height: 250%;
+}
+
+footer>span{
+	color: black;
+	font-weight: bold;
+}
