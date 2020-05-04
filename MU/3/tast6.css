@@ -1,0 +1,9 @@
+/*span{
+	color:red;
+}*/
+input:checked#red~.red{
+	color: red;
+}
+input:checked#green~.green{
+	color: green;
+}
