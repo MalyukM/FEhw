@@ -96,7 +96,8 @@ nav>li:hover{
 	overflow: hidden;
 	color: #515151;
 	word-spacing: -7px;
-	padding: 6px 6px 18px 6px;
+	padding: 6px 6px 61px 6px;
+	border-bottom: 1px solid #9d9d9d;
 }
 
 .blockWithImg{
@@ -213,5 +214,143 @@ nav>li:hover{
 }
 
 
+.content_1{
+	width: 932px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	color: #666;
+}
+.content_1 > h2{
+	text-align: left;
+	margin-bottom: 20px;
+}
+.content_1 > div{
+	display: inline-block;
+	margin-right: -10px;
+	vertical-align: top;
+	text-align: left;
+	padding: 10px;
+	box-sizing: border-box; 
+}
+
+.content_1_left{
+	width: 33%;
+	/*border: 1px solid black;*/
+	/*box-sizing: border-box;*/ 
+}
+
+.content_1_center{
+	width: 33%;
+	/*border: 1px solid red;*/
+	/*box-sizing: border-box;*/ 
+}
+
+.content_1_right{
+	width: 33%;
+	/*border: 1px solid green;*/
+	/*box-sizing: border-box;*/
+}
+
+.content_1 > div > img{
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #EFF0F2;
+}
+
+.cont_img{
+	position: relative;
+}
+.cont_img > img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.img_wrapper{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.3);
+	display: none;
+}
+
+.wrapCircle{
+	margin: auto;
+	margin-top: 15%;
+	text-align: center;
+}
+.wrap_c{
+	height: 27px;
+	width: 27px;
+	background-color: #F1F1F1;
+	position: relative;
+	margin: auto;
+	display: inline-block;
+	border-radius: 100%;
+	vertical-align: middle;
+	border: 5px solid rgba(0,0,0,0.2)
+}
+
+.wrap_c::after{
+	position: absolute;
+	height: 21px;
+	width: 21px;
+	background-image: url(img/buttonsSprite.png);
+	background-repeat: no-repeat;
+	content: '';
+	top: 15%;
+	left: 32%;
+}
+
+.wrapper_center{
+	height: 44px;
+	width: 44px
+}
 
 
+.wrapper_center::after{
+	background-position: -47px 5px;
+}
+
+.wrapper_right:after{
+	background-position: -102px 0;
+}
+
+.cont_img:hover > .img_wrapper{
+display: block;
+}
+.cont_img_foot{
+	background-color: #F0F0F0;
+	line-height: 80%;
+	padding: 15px 12px 7px;
+	margin-top: -10px;
+	position: relative;
+}
+
+.cont_img_foot::after{
+	content: "";
+	text-align: center;
+	height: 13px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -13px;
+	background: url("img/toothSprite.png") no-repeat;
+}
+
+.cont_img_foot>span:nth-child(1){
+	font-size: 12px;
+}
+
+.cont_img_foot>span:nth-child(2){
+	font-size: 8px;
+	color: #868686;
+}
+
+.cont_cont{
+	font-size: 10px;
+	margin-top: 18px;
+	padding: 8px;
+}
