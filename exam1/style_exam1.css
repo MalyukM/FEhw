@@ -354,3 +354,102 @@ display: block;
 	margin-top: 18px;
 	padding: 8px;
 }
+
+.content_2{
+	width: 932px;
+	margin: auto;
+	margin-top: 50px;
+	color: #666;
+	margin-bottom: 40px;
+
+}
+
+.content_line{
+	border: 1px solid #EFEFEF;
+	margin-top: 19px;
+}
+
+.line_tabs{	 
+	background-color: #FBFBFB;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+
+.tabs{
+	display: inline-block;
+	padding: 14px 13px;
+	border-right: 1px solid #EFEFEF;
+	margin-right: -10px;
+}
+
+.tabs_1{
+	background-color: #fff;
+	/*border-bottom: 1px solid black;*/
+}
+
+.line_content{
+	margin-top: 33px;
+	overflow: hidden;
+	padding: 0 20px 32px 20px;
+}
+
+.line_content > p{
+	padding-bottom: 12px;
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 16px;
+}
+
+.line_content_element{	
+	float: left;
+	padding: 0 10px 0 0;
+	box-sizing: border-box;
+	/*margin-right: 8px;*/
+}
+
+.line_content_left{
+	width: 36%
+}
+
+.line_content_center{
+	width: 32%
+}
+.line_content_right{
+	width: 32%
+}
+
+.line_content_element>ul>li{
+	list-style-position: inside;
+	list-style-image: url(img/liarrow.png);
+	font-size: 12px;
+}
+
+.line_content_img > img{
+	float: left;
+	padding-right: 10px;
+	/*width:25px;*/
+}
+
+.line_content_element>p:nth-child(3){
+	margin-top: 5px;
+	font-size: 10px;
+	color: #A8A8A8;
+}
+
+.line_content_element>p:nth-child(2){
+	font-weight: bold;
+	font-size: 12px;
+	color: #333;
+}
+
+.content_2_selector{
+	background-color: #FDE6BA;
+	color: #BF7E00;
+}
+
+
+
+
+
+
+
+
