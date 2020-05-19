@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS task 3</title>
+</head>
+<body>
+<script type="text/javascript">
+	var userName = prompt('Enter user login');
+	var passW = 'passw0rd';
+
+	if (userName === 'admin'){
+		var userPass = prompt('Enter password');
+		if (passW === userPass){
+			alert('Welcome home!');
+		} else if (userPass == null){
+			alert('Canceled');
+		} else {
+			alert('Wrong password')
+		}
+	} else if (userName == null) {
+		alert('Canceled');
+	} else {
+		alert('Access denied');
+	}
+</script>
+</body>
+</html>
