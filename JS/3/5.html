@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS task 3.5</title>
+	<meta content="utf-8" http-equiv="encoding">
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+</head>
+<body>
+<script type="text/javascript">
+let horizontallLine = +prompt('Enter number of horizontal cell');
+let verticalLine = +prompt('Enter number of vertical cell');
+
+for (i=1; i<=horizontallLine; i++){
+	for(j=1; j<=verticalLine; j++){
+		if (i%2==0){
+			if (j%2==0){
+				document.write('#');
+			} else {
+				document.write('\xa0');
+			}
+		} else{
+			if (j%2!=0){
+				document.write('#');
+			} else {
+				document.write('\xa0');
+			}
+		}
+	}
+	document.write("</br>")
+}
+
+</script>
+</body>
+</html>

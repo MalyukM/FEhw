@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS task 3.1</title>
+</head>
+<body>
+<script type="text/javascript">
+var userCounter = 0;
+while (userCounter < 100){
+	userCounter = prompt('Enter int more than 100');
+	if (userCounter === null){
+		break;
+	} else if (+userCounter < 100){
+		continue;
+	}
+	console.log(userCounter)
+}
+</script>
+</body>
+</html>
