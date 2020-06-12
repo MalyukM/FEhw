@@ -1,5 +1,6 @@
-function someF(a, b){
-	return b;
+function sayHi() {
+  	console.log('Test with ${name}');
 }
 
-console.log(someF('a',function('b') )
+let user = { name: "John" };
+sayHi.call( user );
